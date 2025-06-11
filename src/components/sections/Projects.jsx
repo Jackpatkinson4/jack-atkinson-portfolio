@@ -28,6 +28,7 @@ export const Projects = () => {
                         >
                             <img src={hammurabiLogo} alt="Hammurabi Logo" className="mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Hammurabi</h3>
+                            <p className="test-xl mb-2">January 2024 - May 2024</p>
                             <p className="text-gray-400 mb-4">
                                 Hammurabi is a metroidvania action platformer developed by Georgia Tech's video game development club VGDev. 
                                 In it, you play as a tech worker who is fed up with being denied job interviews and decides to take matters into their own hands by
@@ -59,6 +60,7 @@ export const Projects = () => {
                         >
                             <img src={dive} alt="Gameplay Footage of Dive" className="mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Dive</h3>
+                            <p className="test-xl mb-2">January 2023 - May 2023</p>
                             <p className="text-gray-400 mb-4">
                                 Dive is a mechanics-based 2D platformer developed by Georgia Tech's video game development club VGDev.
                                 In it, you play as a cave diver drill diving their way down a cave in order to collect collectable fireflies. Lots of details and challenges
@@ -90,6 +92,7 @@ export const Projects = () => {
                         >
                             <img src={cowboyQuokka} alt="Cowboy Quokka Title Screen" className="mb-2"/>
                             <h3 className="test-xl font-bold mb-2">The Cowboy Quokka</h3>
+                            <p className="test-xl mb-2">August 2023 - December 2023</p>
                             <p className="text-gray-400 mb-4">
                             The Cowboy Quokka is a prototype 3D physics-based platformer designed using the Unity Engine, with scripting in C# and 3D modeling in Blender. 
                             In it, you play as the titular Cowboy Quokka, putting out fires throughout the town. It was developed as a group project for the CS 4455: Video Game Development 
@@ -124,6 +127,7 @@ export const Projects = () => {
                         >
                             <img src={thrall} alt="Gameplay screenshot of Thrall" className="mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Thrall</h3>
+                            <p className="test-xl mb-2">January 2022 - May 2022</p>
                             <p className="text-gray-400 mb-4">
                                 Thrall is an exploration based 2D platformer developed by Georgia Tech's VGDev club. It is primarily focused on exploring the delapidated world 
                                 you find yourself in, fighting enemies and bosses, and overcoming platforming challenges as you proceed. There is a high emphasis on organic 
@@ -155,6 +159,7 @@ export const Projects = () => {
                         >
                             <img src={cPlusPong} alt="Gameplay screenshot of CPlusPong" className="mb-2"/>
                             <h3 className="test-xl font-bold mb-2">CPlusPong</h3>
+                            <p className="test-xl mb-2">November 2023</p>
                             <p className="text-gray-400 mb-4">
                                 CPlusPong is a basic pong clone developed in C# with Visual Studio 2022 as a means to improve my skills in C++ and 
                                 software development for Windows-based applications.
@@ -185,6 +190,7 @@ export const Projects = () => {
                         >
                             <img src={colmar} alt="Gameplay screenshot of CPlusPong" className="mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Colmar Academy</h3>
+                            <p className="test-xl mb-2">May 2025</p>
                             <p className="text-gray-400 mb-4">
                                 This is a basic website made in HTML and CSS that I created as the capstone project for Codecademy's Build a Website with HTML, CSS, and GitHub Pages Skill Path.
                                 I designed it using only a basic wireframe and I made it so that it was responsibe to both desktop and mobile displays. I also hosted the website on GitHub Pages.
@@ -215,6 +221,7 @@ export const Projects = () => {
                         >
                             <img src={gunWithLegs} alt="Gameplay Footage of Dive" className="mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Gun With Legs</h3>
+                            <p className="test-xl mb-2">January 2021 - May 2021</p>
                             <p className="text-gray-400 mb-4">
                                 Gun with legs is an action platformer developed by Georgia Tech's VGDev club in which you play as... well, a gun with legs! Bullets not ony work
                                 as projectiles to attack your enemies, but they are also your health, so be sure to get as much bullets scattered across the map as possible!
@@ -245,6 +252,7 @@ export const Projects = () => {
                         >
                             <img src={madman} alt="Madman 97 Title Screen" className="mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Madman 97</h3>
+                            <p className="test-xl mb-2">March 2023 - April 2023</p>
                             <p className="text-gray-400 mb-4">
                             This is a basic Space Invaders style shoot-em-up developed for the GBA inspired by the real life story of John Lennon's immigration struggles in the 70s and the infamous
                             kusoge "Hong Kong 97". It was developed as a project for Georgia Tech's CS 2110: Computer Organization and Programming, and it uses DMA rendering for the sprites and C for
