@@ -25,7 +25,7 @@ export const Home = () => {
                             {/* Resume and Contact Buttons */}
                             <div className="flex justify-center space-x-4">
                                 <a 
-                                    href={Pdf} download="Atkinson_Resume_5_10_2025" target='_blank'
+                                    href={Pdf} download="Atkinson_Resume_6_10_2025" target='_blank'
                                     className="bg-red-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 
                                     hover:shadow-[0-0_15px_rgba(246, 59, 130, 0.4)]"
                                 >

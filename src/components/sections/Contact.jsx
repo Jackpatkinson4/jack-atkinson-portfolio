@@ -17,6 +17,10 @@ export const Contact = () => {
                                 </a>
                             </li>
                             <li>
+                                GitHub:
+                                <a href="https://github.com/Jackpatkinson4" className="text-red-400 hover:text-red-300 transition-colors mx-1">https://github.com/Jackpatkinson4</a>
+                            </li>
+                            <li>
                                 Itch.io:
                                 <a href="https://jackpatkinson4.itch.io/" className="text-red-400 hover:text-red-300 transition-colors mx-1">https://jackpatkinson4.itch.io/</a>
                             </li>
