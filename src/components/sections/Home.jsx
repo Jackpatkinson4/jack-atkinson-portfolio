@@ -1,4 +1,4 @@
-import Pdf from "../../assets/Atkinson_Resume_5_10_2025.pdf"
+import Pdf from "../../assets/Atkinson_Resume_6_10_2025.pdf"
 import profile from "../../assets/img/profile.jpg"
 import { RevealOnScroll } from "./RevealOnScroll"
 
