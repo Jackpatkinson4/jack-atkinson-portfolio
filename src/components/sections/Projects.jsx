@@ -6,6 +6,7 @@ import thrall from "../../assets/img/Thrall-Screenshot.png"
 import gunWithLegs from "../../assets/img/GunWithLegs.png"
 import colmar from "../../assets/img/Colmar-Banner.jpg"
 import madman from "../../assets/img/Madman-97-Title-Screen.png"
+import quotes from "../../assets/img/Uninspirational-Quotes-Screenshot.png"
 
 import { RevealOnScroll } from "./RevealOnScroll"
 
@@ -117,6 +118,72 @@ export const Projects = () => {
 
                             <div className="flex justify-between items-center">
                                 <a href="https://drive.google.com/file/d/10tLD3zTYk8V1RTc6eCmStYYEm1rIPrBu/view?usp=sharing" className="text-red-400 hover:text-red-300 transition-colors my-4">
+                                    Download Project → 
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
+                                        hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
+                        >
+                            <img src={quotes} alt="Gameplay screenshot of CPlusPong" className="mb-2"/>
+                            <h3 className="test-xl font-bold mb-2">Mixed Messages (Uninspirational Quotes)</h3>
+                            <p className="test-xl mb-2">July 2025</p>
+                            <p className="text-gray-400 mb-4">
+                                This project was made as part of Codecademy's Full Stack Engineering Course, designed to enhance skills in JavaScript, HTML, and CSS while working with interactive web applications. 
+                                This project is designed as a simple web page that displays a funny quote from a real historical figure chosen from a set of quotes based on what day it currently is.
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                <span className="font-semibold">ROLE:</span> Sole Developer
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["Web Development", "HTML", "CSS", "JavaScript", "Web Design", "Responsive Web Design", "GitHub Pages"].map((skill, key) => (
+                                    <span key={key}
+                                                className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm warp hover:bg-red-500/20
+                                                            hover:shadow-[0_2px_8px_rgba(246,59,130,0.2)] transition"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="flex justify-between items-center">
+                                <a href="https://jackpatkinson4.github.io/Mixed-Messages/" className="text-red-400 hover:text-red-300 transition-colors my-4">
+                                    View Project → 
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
+                                        hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
+                        >
+                            <img src={madman} alt="Madman 97 Title Screen" className="mb-2"/>
+                            <h3 className="test-xl font-bold mb-2">Madman 97</h3>
+                            <p className="test-xl mb-2">March 2023 - April 2023</p>
+                            <p className="text-gray-400 mb-4">
+                            This is a basic Space Invaders style shoot-em-up developed for the GBA inspired by the real life story of John Lennon's immigration struggles in the 70s and the infamous
+                            kusoge "Hong Kong 97". It was developed as a project for Georgia Tech's CS 2110: Computer Organization and Programming, and it uses DMA rendering for the sprites and C for
+                            the game logic.
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                <span className="font-semibold">ROLE:</span> Sole Developer
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                Attached is the .gba file containing the full game. You must use a GBA emulator such as mGBA to run it on modern computers.
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["Game Development", "C", "Low Level Programming", "Bare Metal Programming", "GBA Development"].map((skill, key) => (
+                                    <span key={key}
+                                                className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm warp hover:bg-red-500/20
+                                                            hover:shadow-[0_2px_8px_rgba(246,59,130,0.2)] transition"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="flex justify-between items-center">
+                                <a href="https://drive.google.com/file/d/1857DC36V5Mza-g_EjFH85QtXIycNYEu3/view?usp=sharing" className="text-red-400 hover:text-red-300 transition-colors my-4">
                                     Download Project → 
                                 </a>
                             </div>
@@ -247,40 +314,6 @@ export const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
-                                        hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
-                        >
-                            <img src={madman} alt="Madman 97 Title Screen" className="mb-2"/>
-                            <h3 className="test-xl font-bold mb-2">Madman 97</h3>
-                            <p className="test-xl mb-2">March 2023 - April 2023</p>
-                            <p className="text-gray-400 mb-4">
-                            This is a basic Space Invaders style shoot-em-up developed for the GBA inspired by the real life story of John Lennon's immigration struggles in the 70s and the infamous
-                            kusoge "Hong Kong 97". It was developed as a project for Georgia Tech's CS 2110: Computer Organization and Programming, and it uses DMA rendering for the sprites and C for
-                            the game logic.
-                            </p>
-                            <p className="text-gray-400 mb-4">
-                                <span className="font-semibold">ROLE:</span> Sole Developer
-                            </p>
-                            <p className="text-gray-400 mb-4">
-                                Attached is the .gba file containing the full game. You must use a GBA emulator such as mGBA to run it on modern computers.
-                            </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {["Game Development", "C", "Low Level Programming", "Bare Metal Programming", "GBA Development"].map((skill, key) => (
-                                    <span key={key}
-                                                className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm warp hover:bg-red-500/20
-                                                            hover:shadow-[0_2px_8px_rgba(246,59,130,0.2)] transition"
-                                    >
-                                        {skill}
-                                    </span>
-                                ))}
-                            </div>
-
-                            <div className="flex justify-between items-center">
-                                <a href="https://drive.google.com/file/d/1857DC36V5Mza-g_EjFH85QtXIycNYEu3/view?usp=sharing" className="text-red-400 hover:text-red-300 transition-colors my-4">
-                                    Download Project → 
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </RevealOnScroll>

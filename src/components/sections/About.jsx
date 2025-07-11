@@ -51,6 +51,7 @@ export const About = () => {
         "Godot Engine",
         "libGDX",
         "MonoGame",
+        "OpenGL",
         "Blender",
         "Adobe Creative Cloud"
     ];
