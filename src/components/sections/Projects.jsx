@@ -7,6 +7,7 @@ import gunWithLegs from "../../assets/img/GunWithLegs.png"
 import colmar from "../../assets/img/Colmar-Banner.jpg"
 import madman from "../../assets/img/Madman-97-Title-Screen.png"
 import quotes from "../../assets/img/Uninspirational-Quotes-Screenshot.png"
+import raycaster from "../../assets/img/raycaster.gif"
 
 import { RevealOnScroll } from "./RevealOnScroll"
 
@@ -24,6 +25,41 @@ export const Projects = () => {
                         Featured Projects
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                        <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
+                                        hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
+                        >
+                            <img src={raycaster} alt="Gameplay Footage of Raycasting Engine" className="mb-2"/>
+                            <h3 className="test-xl font-bold mb-2">Raycasting Engine (WIP)</h3>
+                            <p className="test-xl mb-2">July 2025 - Present</p>
+                            <p className="text-gray-400 mb-4">
+                            This is a prototype Wolfenstein 3D style Raycasting Engine developed in C++ and the Raylib programming library.
+                            It uses the Digital Differential Analysis (DDA) algorithm to cast rays in a certain direction from a certain point in a 2D grid and uses the distance of the rays to calculate the 3D perspective 
+                            (as further discused in <a href="https://lodev.org/cgtutor/raycasting.html" className="text-red-400 hover:text-red-300 transition-colors my-4">Lode Vandevenne's amazing tutorial</a>).
+                            So far this is a work in progress, and I currently have plans to add support for textures, custom maps, and enemies.
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                <span className="font-semibold">ROLE:</span> Sole Developer
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["Game Development", "C++", "Raylib", "Visual Studio", "Object-Oriented Programming", "Software Development", "Computer Graphics", "Algorithms"].map((skill, key) => (
+                                    <span key={key}
+                                                className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm warp hover:bg-red-500/20
+                                                            hover:shadow-[0_2px_8px_rgba(246,59,130,0.2)] transition"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="flex justify-between items-center">
+                                <a href="https://github.com/Jackpatkinson4/Raycasting-Engine" className="text-red-400 hover:text-red-300 transition-colors my-4">
+                                    View Project → 
+                                </a>
+                            </div>
+                        </div>
+
+
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
@@ -126,37 +162,6 @@ export const Projects = () => {
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
-                            <img src={quotes} alt="Gameplay screenshot of CPlusPong" className="mb-2"/>
-                            <h3 className="test-xl font-bold mb-2">Mixed Messages (Uninspirational Quotes)</h3>
-                            <p className="test-xl mb-2">July 2025</p>
-                            <p className="text-gray-400 mb-4">
-                                This project was made as part of Codecademy's Full Stack Engineering Course, designed to enhance skills in JavaScript, HTML, and CSS while working with interactive web applications. 
-                                This project is designed as a simple web page that displays a funny quote from a real historical figure chosen from a set of quotes based on what day it currently is.
-                            </p>
-                            <p className="text-gray-400 mb-4">
-                                <span className="font-semibold">ROLE:</span> Sole Developer
-                            </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {["Web Development", "HTML", "CSS", "JavaScript", "Web Design", "Responsive Web Design", "GitHub Pages"].map((skill, key) => (
-                                    <span key={key}
-                                                className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm warp hover:bg-red-500/20
-                                                            hover:shadow-[0_2px_8px_rgba(246,59,130,0.2)] transition"
-                                    >
-                                        {skill}
-                                    </span>
-                                ))}
-                            </div>
-
-                            <div className="flex justify-between items-center">
-                                <a href="https://jackpatkinson4.github.io/Mixed-Messages/" className="text-red-400 hover:text-red-300 transition-colors my-4">
-                                    View Project → 
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
-                                        hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
-                        >
                             <img src={madman} alt="Madman 97 Title Screen" className="mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Madman 97</h3>
                             <p className="test-xl mb-2">March 2023 - April 2023</p>
@@ -188,6 +193,38 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
+
+                        <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
+                                        hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
+                        >
+                            <img src={quotes} alt="Gameplay screenshot of CPlusPong" className="mb-2"/>
+                            <h3 className="test-xl font-bold mb-2">Mixed Messages (Uninspirational Quotes)</h3>
+                            <p className="test-xl mb-2">July 2025</p>
+                            <p className="text-gray-400 mb-4">
+                                This project was made as part of Codecademy's Full Stack Engineering Course, designed to enhance skills in JavaScript, HTML, and CSS while working with interactive web applications. 
+                                This project is designed as a simple web page that displays a funny quote from a real historical figure chosen from a set of quotes based on what day it currently is.
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                <span className="font-semibold">ROLE:</span> Sole Developer
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["Web Development", "HTML", "CSS", "JavaScript", "Web Design", "Responsive Web Design", "GitHub Pages"].map((skill, key) => (
+                                    <span key={key}
+                                                className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm warp hover:bg-red-500/20
+                                                            hover:shadow-[0_2px_8px_rgba(246,59,130,0.2)] transition"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="flex justify-between items-center">
+                                <a href="https://jackpatkinson4.github.io/Mixed-Messages/" className="text-red-400 hover:text-red-300 transition-colors my-4">
+                                    View Project → 
+                                </a>
+                            </div>
+                        </div>
+
 
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
