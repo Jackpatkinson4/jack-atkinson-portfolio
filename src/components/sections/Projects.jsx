@@ -19,17 +19,17 @@ export const Projects = () => {
             className="min-h-screen flex items-center justify-center py-20"
         >
             <RevealOnScroll>
-                <div className="max-w-7xl mx-auto px-4">
+                <div className="max-w-6x1 mx-auto px-4">
                     <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-red-500 to-pink-400 bg-clip-text text-transparent text-center"
                     >
                         Featured Projects
                     </h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
-                            <img src={raycaster} alt="Gameplay Footage of Raycasting Engine" className="mb-2"/>
+                            <img src={raycaster} alt="Gameplay Footage of Raycasting Engine" className="w-full size-auto mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Raycasting Engine (WIP)</h3>
                             <p className="test-xl mb-2">July 2025 - Present</p>
                             <p className="text-gray-400 mb-4">
@@ -63,7 +63,7 @@ export const Projects = () => {
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
-                            <img src={hammurabiLogo} alt="Hammurabi Logo" className="mb-2"/>
+                            <img src={hammurabiLogo} alt="Hammurabi Logo" className="w-full size-auto mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Hammurabi</h3>
                             <p className="test-xl mb-2">January 2024 - May 2024</p>
                             <p className="text-gray-400 mb-4">
@@ -95,7 +95,7 @@ export const Projects = () => {
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
-                            <img src={dive} alt="Gameplay Footage of Dive" className="mb-2"/>
+                            <img src={dive} alt="Gameplay Footage of Dive" className="w-full size-auto mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Dive</h3>
                             <p className="test-xl mb-2">January 2023 - May 2023</p>
                             <p className="text-gray-400 mb-4">
@@ -127,7 +127,7 @@ export const Projects = () => {
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
-                            <img src={cowboyQuokka} alt="Cowboy Quokka Title Screen" className="mb-2"/>
+                            <img src={cowboyQuokka} alt="Cowboy Quokka Title Screen" className="w-full size-auto mb-2"/>
                             <h3 className="test-xl font-bold mb-2">The Cowboy Quokka</h3>
                             <p className="test-xl mb-2">August 2023 - December 2023</p>
                             <p className="text-gray-400 mb-4">
@@ -162,7 +162,7 @@ export const Projects = () => {
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
-                            <img src={madman} alt="Madman 97 Title Screen" className="mb-2"/>
+                            <img src={madman} alt="Madman 97 Title Screen" className="w-full size-auto mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Madman 97</h3>
                             <p className="test-xl mb-2">March 2023 - April 2023</p>
                             <p className="text-gray-400 mb-4">
@@ -197,7 +197,7 @@ export const Projects = () => {
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
-                            <img src={quotes} alt="Gameplay screenshot of CPlusPong" className="mb-2"/>
+                            <img src={quotes} alt="Gameplay screenshot of CPlusPong" className="w-full size-auto mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Mixed Messages (Uninspirational Quotes)</h3>
                             <p className="test-xl mb-2">July 2025</p>
                             <p className="text-gray-400 mb-4">
@@ -229,7 +229,7 @@ export const Projects = () => {
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
-                            <img src={thrall} alt="Gameplay screenshot of Thrall" className="mb-2"/>
+                            <img src={thrall} alt="Gameplay screenshot of Thrall" className="w-full size-auto mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Thrall</h3>
                             <p className="test-xl mb-2">January 2022 - May 2022</p>
                             <p className="text-gray-400 mb-4">
@@ -261,11 +261,11 @@ export const Projects = () => {
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
-                            <img src={cPlusPong} alt="Gameplay screenshot of CPlusPong" className="mb-2"/>
+                            <img src={cPlusPong} alt="Gameplay screenshot of CPlusPong" className="w-full size-auto mb-2"/>
                             <h3 className="test-xl font-bold mb-2">CPlusPong</h3>
                             <p className="test-xl mb-2">November 2023</p>
                             <p className="text-gray-400 mb-4">
-                                CPlusPong is a basic pong clone developed in C# with Visual Studio 2022 as a means to improve my skills in C++ and 
+                                CPlusPong is a basic pong clone developed in C++ with Visual Studio 2022 as a means to improve my skills in C++ and 
                                 software development for Windows-based applications.
                             </p>
                             <p className="text-gray-400 mb-4">
@@ -292,7 +292,7 @@ export const Projects = () => {
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
-                            <img src={colmar} alt="Gameplay screenshot of CPlusPong" className="mb-2"/>
+                            <img src={colmar} alt="Screenshot of Colmar Academy" className="w-full size-auto mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Colmar Academy</h3>
                             <p className="test-xl mb-2">May 2025</p>
                             <p className="text-gray-400 mb-4">
@@ -323,7 +323,7 @@ export const Projects = () => {
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
-                            <img src={gunWithLegs} alt="Gameplay Footage of Dive" className="mb-2"/>
+                            <img src={gunWithLegs} alt="Gameplay screenshot of Gun With Legs" className="w-full size-auto mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Gun With Legs</h3>
                             <p className="test-xl mb-2">January 2021 - May 2021</p>
                             <p className="text-gray-400 mb-4">
