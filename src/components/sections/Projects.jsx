@@ -8,6 +8,7 @@ import colmar from "../../assets/img/Colmar-Banner.jpg"
 import madman from "../../assets/img/Madman-97-Title-Screen.png"
 import quotes from "../../assets/img/Uninspirational-Quotes-Screenshot.png"
 import raycaster from "../../assets/img/raycaster.gif"
+import unannounced from "../../assets/img/unannounced.png"
 
 import { RevealOnScroll } from "./RevealOnScroll"
 
@@ -25,6 +26,31 @@ export const Projects = () => {
                         Featured Projects
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                        <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
+                                        hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
+                        >
+                            <img src={unannounced} alt="Placeholder Image for unnanounced project" className="w-full size-auto mb-2"/>
+                            <h3 className="test-xl font-bold mb-2">Unannounced Sci-Fi Game</h3>
+                            <p className="test-xl mb-2">July 2025 - Present</p>
+                            <p className="text-gray-400 mb-4">
+                            I am currently assisting in the level design of an unnanounced sci-fi fps game developed in Unity by Touchframe Interactive Ltd. As part of this project, I designed the base layout of each level and added
+                            various bits of environmental storytelling to make each world seemed lived in.
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                <span className="font-semibold">ROLE:</span> Level Designer
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["Game Development", "Unity", "Level Design", "C#", "Tech Art", "Environmental Storytelling"].map((skill, key) => (
+                                    <span key={key}
+                                                className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm warp hover:bg-red-500/20
+                                                            hover:shadow-[0_2px_8px_rgba(246,59,130,0.2)] transition"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
 
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
@@ -58,7 +84,6 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-
 
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
