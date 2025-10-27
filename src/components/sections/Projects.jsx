@@ -9,6 +9,7 @@ import madman from "../../assets/img/Madman-97-Title-Screen.png"
 import quotes from "../../assets/img/Uninspirational-Quotes-Screenshot.png"
 import raycaster from "../../assets/img/raycaster.gif"
 import unannounced from "../../assets/img/unannounced.png"
+import flopsters from "../../assets/img/flopsters-gif.gif"
 
 import { RevealOnScroll } from "./RevealOnScroll"
 
@@ -26,6 +27,29 @@ export const Projects = () => {
                         Featured Projects
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
+                                        hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
+                        >
+                            <img src={flopsters} alt="Gif of Flopsters website in use" className="w-full size-auto mb-2"/>
+                            <h3 className="test-xl font-bold mb-2">Flopsters: A Topsters Clone</h3>
+                            <p className="test-xl mb-2">October 2025 - Present</p>
+                            <p className="text-gray-400 mb-4">
+                            This is a clone of the popular chart building website Topsters developed using React, JavaScript, HTML, and CSS. I made this while taking CodeCademy's Full Stack Engineering course in order to show off my frontend development skills.
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                <span className="font-semibold">ROLE:</span> Sole Developer
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["Web Development", "HTML", "CSS", "JavaScript", "React.js", "Node.js", "Frontend Development", "Web Design", "Git", "npm"].map((skill, key) => (
+                                    <span key={key}
+                                                className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm warp hover:bg-red-500/20
+                                                            hover:shadow-[0_2px_8px_rgba(246,59,130,0.2)] transition"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
 
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
@@ -222,7 +246,7 @@ export const Projects = () => {
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
                                         hover:shadow-[0_2px_8px_rgba(246,59,130,0.1)] transition-all"
                         >
-                            <img src={quotes} alt="Gameplay screenshot of CPlusPong" className="w-full size-auto mb-2"/>
+                            <img src={quotes} alt="Screenshat of Mixed Messages website" className="w-full size-auto mb-2"/>
                             <h3 className="test-xl font-bold mb-2">Mixed Messages (Uninspirational Quotes)</h3>
                             <p className="test-xl mb-2">July 2025</p>
                             <p className="text-gray-400 mb-4">
