@@ -49,6 +49,11 @@ export const Projects = () => {
                                     </span>
                                 ))}
                             </div>
+                            <div className="flex justify-between items-center">
+                                <a href="https://github.com/Jackpatkinson4/topsters-clone" className="text-red-400 hover:text-red-300 transition-colors my-4">
+                                    View Project → 
+                                </a>
+                            </div>
                         </div>
 
                         <div className="p-5 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/30 
